@@ -10,3 +10,5 @@ Mallery, Kevin, and Jiarong Hong. "Regularized inverse holographic volume recons
 
 The authors acknowledge the financial support from the National Science Foundation under Grant No. NSF-MCB-2438892.
 
+<img width="4009" height="2053" alt="3DHIT_With3DTracks-1" src="https://github.com/user-attachments/assets/939242cd-0405-4d71-825e-7e449f4c16bd" />
+
