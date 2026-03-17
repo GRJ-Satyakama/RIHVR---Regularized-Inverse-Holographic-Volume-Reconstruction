@@ -499,7 +499,7 @@ RIHVR::RIHVR(QWidget *parent)
 
     connect(ui->ReconMedianBG, &QRadioButton::toggled, this, [this](bool checked){
         if (checked) {
-            ui->BGName->setText("background_%04d.tif");
+            ui->BGName->setText("background_%04d.png");
         }
     });
 
