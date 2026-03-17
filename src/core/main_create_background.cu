@@ -151,7 +151,7 @@ void median_background_calc(Parameters params)
     for (int i = 0; i < 3; ++i)
     {
         char write_filename[FILENAME_MAX];
-        sprintf(write_filename, "%s/background_%04d.tif", params.output_path, params.background_start + i);
+        sprintf(write_filename, "%s/background_%04d.png", params.output_path, params.background_start + i);
         background.write(write_filename);
     }
     
@@ -182,7 +182,7 @@ void median_background_calc(Parameters params)
         bg_data.setCuData(bg_data_d);
         background.setData(bg_data);
         char write_filename[FILENAME_MAX];
-        sprintf(write_filename, "%s/background_%04d.tif", params.output_path, params.background_start + i);
+        sprintf(write_filename, "%s/background_%04d.png", params.output_path, params.background_start + i);
         background.write(write_filename);
     }
     
